@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: aliceblue;
+    margin: 15px;
+    padding: 10px;
+}
+.one {
+    border: 2px solid rgb(170, 164, 164);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    height: 100vh;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.header ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    color: black;
+    text-decoration: none;
+}
+header ul li a {
+    text-decoration: none;
+    color: black;
+}
+.hearder h1 {
+    font-family: ;
+}
+.header button {
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 12px;
+    cursor: pointer;
+}    
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+    height: 400px;
+    align-items: center;
+    margin-top: 200px;
+}
+.text {
+    width: 350px;
+}
+.text h1 {
+    font-family: sans-serif;
+    margin-bottom: 20px;
+    line-height: 1.2;
+    font-size: 45px;
+}
+.text p {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+#black {
+    background-color: black;
+    color: white;
+    gap: 20px;
+    /* border: ; */
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 12px;
+    cursor: pointer;
+}
+#white {
+    background-color: white;
+    color: black;
+    gap: 20px;
+    /* border: ; */
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 12px;
+    cursor: pointer;
+}
+.img img {
+    width: 350px;
+}
+.two {
+    border: 2px solid rgb(170, 164, 164);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.heading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.heading h1 {
+    margin-bottom: 20px;
+    font-family: fantasy;
+}
+.children {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+.child {
+    width: 350px;
+    height: 300px;
+    display: block;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    gap: 20px;
+    border: 10px;
+}
+.circle {
+    border-radius: 50%;
+}
+.child img {
+    margin-top: 20px;
+}
+.child h1 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.three {
+    
+    border: 2px solid rgb(170, 164, 164);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    
+}
+.threee {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    gap: 16px;
+    flex-basis: 50%;
+    margin-bottom: 50px;
+    justify-content: space-around;
+}
+
+.item {
+  /* flex: 0 0 50%; */
+  width: 400px;
+  
+}
+.fur {
+    display: flex;
+    justify-content: space-around;
+}
+.items {
+    width: 400px;
+}
+#butt {
+    background-color: black;
+    color: white;
+    gap: 20px;
+    /* border: ; */
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 12px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.items h1 {
+    margin-bottom: 10px;
+}
+.four {
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-around;
+}
+.itm {
+    width: 400px;
+}
+#butts {
+   background-color: black;
+    color: white;
+    gap: 20px;
+    /* border: ; */
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 12px;
+    cursor: pointer;
+    margin-top: 10px;
+} 
+.maf {
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-around;
+}
+.itms {
+    width: 400px;
+}
+.itms h1 {
+    margin-bottom: 10px;
+}
+.guch {
+    display: flex;
+    gap: 20px;
+}
+.luv {
+    border: 2px solid rgb(170, 164, 164);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.lvv {
+    display: flex;
+    justify-content: space-between;
+}
+.ad {
+    display: flex;
+    justify-content: space-between;
+}
+.mgb {
+    display: flex;
+    justify-content: space-between;
+}
+.glow {
+    display: flex;
+    justify-content: space-between;
+}
+.mun {
+    border: 2px solid rgb(170, 164, 164);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    height: 300px;
+}
+.joy {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    border-radius: 20px;
+}
+.joy p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+#bott {
+    background-color: white;
+    color: black;
+    gap: 20px;
+    /* border: ; */
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 12px;
+    cursor: pointer;
+    margin-top: 10px;
+}
